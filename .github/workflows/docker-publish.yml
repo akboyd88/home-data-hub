@@ -14,7 +14,7 @@ on:
   pull_request:
 
 env:
-  IMAGE_NAME: etl-template
+  IMAGE_NAME: home-data-hub
 
 jobs:
   # Run tests.
