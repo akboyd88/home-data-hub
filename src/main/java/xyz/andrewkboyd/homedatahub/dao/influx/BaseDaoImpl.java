@@ -1,9 +1,9 @@
-package xyz.andrewkboyd.etltemplate.dao.influx;
+package xyz.andrewkboyd.homedatahub.dao.influx;
 
 import org.influxdb.InfluxDB;
 import org.influxdb.dto.Point;
 import org.springframework.beans.factory.annotation.Qualifier;
-import xyz.andrewkboyd.etltemplate.dao.interfaces.BaseDAO;
+import xyz.andrewkboyd.homedatahub.dao.interfaces.BaseDAO;
 
 public abstract class BaseDaoImpl<T> implements BaseDAO<T> {
 

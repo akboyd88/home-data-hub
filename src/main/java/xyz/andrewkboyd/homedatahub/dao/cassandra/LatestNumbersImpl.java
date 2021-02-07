@@ -1,4 +1,4 @@
-package xyz.andrewkboyd.etltemplate.dao.cassandra;
+package xyz.andrewkboyd.homedatahub.dao.cassandra;
 
 public class LatestNumbersImpl {
 }

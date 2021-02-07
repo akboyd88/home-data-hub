@@ -1,6 +1,6 @@
-package xyz.andrewkboyd.etltemplate.configuration;
+package xyz.andrewkboyd.homedatahub.configuration;
 
-import xyz.andrewkboyd.etltemplate.tasks.TestEmitterJob;
+import xyz.andrewkboyd.homedatahub.tasks.TestEmitterJob;
 
 import org.quartz.JobBuilder;
 import org.quartz.JobDetail;

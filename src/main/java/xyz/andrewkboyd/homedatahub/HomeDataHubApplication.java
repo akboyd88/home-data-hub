@@ -1,4 +1,4 @@
-package xyz.andrewkboyd.etltemplate;
+package xyz.andrewkboyd.homedatahub;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -13,7 +13,7 @@ import java.util.Collections;
 @SpringBootApplication
 public class HomeDataHubApplication {
 
-	private static final Logger LOG = LoggerFactory.getLogger(EtlTemplateApplication.class);
+	private static final Logger LOG = LoggerFactory.getLogger(HomeDataHubApplication.class);
 
 	/**
 	 * Launch the spring application
@@ -21,7 +21,7 @@ public class HomeDataHubApplication {
 	 */
 	public static void main(String[] args) {
 		try {
-			SpringApplication app = new SpringApplication(EtlTemplateApplication.class);
+			SpringApplication app = new SpringApplication(HomeDataHubApplication.class);
 			app.setDefaultProperties(Collections.singletonMap("server.port", "9000"));
 			app.run(args);
 		} catch(Exception e) {

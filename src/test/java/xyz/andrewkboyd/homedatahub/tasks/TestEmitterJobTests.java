@@ -1,4 +1,4 @@
-package xyz.andrewkboyd.etltemplate.tasks;
+package xyz.andrewkboyd.homedatahub.tasks;
 
 import org.apache.kafka.clients.producer.ProducerRecord;
 import org.apache.kafka.clients.producer.RecordMetadata;

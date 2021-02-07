@@ -1,4 +1,4 @@
-package xyz.andrewkboyd.etltemplate.entities.influx;
+package xyz.andrewkboyd.homedatahub.entities.influx;
 
 import lombok.Data;
 import org.influxdb.annotation.Column;

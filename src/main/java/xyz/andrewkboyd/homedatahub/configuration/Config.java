@@ -1,4 +1,4 @@
-package xyz.andrewkboyd.etltemplate.configuration;
+package xyz.andrewkboyd.homedatahub.configuration;
 
 import org.springframework.boot.autoconfigure.web.reactive.WebFluxProperties;
 import org.springframework.context.annotation.Bean;

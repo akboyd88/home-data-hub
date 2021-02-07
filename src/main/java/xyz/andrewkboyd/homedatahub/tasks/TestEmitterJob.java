@@ -1,4 +1,4 @@
-package xyz.andrewkboyd.etltemplate.tasks;
+package xyz.andrewkboyd.homedatahub.tasks;
 
 import org.quartz.DisallowConcurrentExecution;
 import org.quartz.JobExecutionContext;

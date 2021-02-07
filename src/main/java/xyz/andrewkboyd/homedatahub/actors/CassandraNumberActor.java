@@ -1,4 +1,4 @@
-package xyz.andrewkboyd.etltemplate.actors;
+package xyz.andrewkboyd.homedatahub.actors;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

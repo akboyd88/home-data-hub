@@ -1,4 +1,4 @@
-package xyz.andrewkboyd.etltemplate.entities.postgresql;
+package xyz.andrewkboyd.homedatahub.entities.postgresql;
 
 import lombok.Data;
 

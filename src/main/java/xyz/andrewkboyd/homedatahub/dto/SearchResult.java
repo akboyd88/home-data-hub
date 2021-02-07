@@ -1,4 +1,4 @@
-package xyz.andrewkboyd.etltemplate.dto;
+package xyz.andrewkboyd.homedatahub.dto;
 
 import lombok.Data;
 

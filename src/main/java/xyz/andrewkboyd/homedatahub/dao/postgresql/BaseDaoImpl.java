@@ -1,4 +1,4 @@
-package xyz.andrewkboyd.etltemplate.dao.postgresql;
+package xyz.andrewkboyd.homedatahub.dao.postgresql;
 
 import org.hibernate.Session;
 import org.springframework.stereotype.Repository;
@@ -8,7 +8,7 @@ import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
 
 @Repository
-public abstract class BaseDaoImpl<T> implements xyz.andrewkboyd.etltemplate.dao.interfaces.BaseDAO<T> {
+public abstract class BaseDaoImpl<T> implements xyz.andrewkboyd.homedatahub.dao.interfaces.BaseDAO<T> {
 
     @PersistenceContext
     private EntityManager entityManager;

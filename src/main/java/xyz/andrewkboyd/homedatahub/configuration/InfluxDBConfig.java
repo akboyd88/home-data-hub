@@ -1,4 +1,4 @@
-package xyz.andrewkboyd.etltemplate.configuration;
+package xyz.andrewkboyd.homedatahub.configuration;
 
 import org.influxdb.InfluxDB;
 import org.influxdb.InfluxDBFactory;

@@ -1,4 +1,4 @@
-package xyz.andrewkboyd.etltemplate.controllers;
+package xyz.andrewkboyd.homedatahub.controllers;
 
 
 import org.junit.jupiter.api.BeforeEach;
@@ -12,7 +12,7 @@ import org.springframework.http.HttpHeaders;
 import org.springframework.security.test.context.support.WithMockUser;
 import org.springframework.test.context.junit4.SpringRunner;
 import org.springframework.test.web.reactive.server.WebTestClient;
-import xyz.andrewkboyd.etltemplate.dao.interfaces.LatestNumbersDAO;
+import xyz.andrewkboyd.homedatahub.dao.interfaces.LatestNumbersDAO;
 
 
 @RunWith(SpringRunner.class)

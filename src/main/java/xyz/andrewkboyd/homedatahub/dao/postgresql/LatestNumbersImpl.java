@@ -1,8 +1,8 @@
-package xyz.andrewkboyd.etltemplate.dao.postgresql;
+package xyz.andrewkboyd.homedatahub.dao.postgresql;
 
 import org.springframework.transaction.annotation.Transactional;
-import xyz.andrewkboyd.etltemplate.dao.interfaces.LatestNumbersDAO;
-import xyz.andrewkboyd.etltemplate.entities.postgresql.TestNumbers;
+import xyz.andrewkboyd.homedatahub.dao.interfaces.LatestNumbersDAO;
+import xyz.andrewkboyd.homedatahub.entities.postgresql.TestNumbers;
 
 
 public class LatestNumbersImpl extends BaseDaoImpl<TestNumbers> implements LatestNumbersDAO {

@@ -1,12 +1,12 @@
-package xyz.andrewkboyd.etltemplate.dao.influx;
+package xyz.andrewkboyd.homedatahub.dao.influx;
 
 import org.influxdb.InfluxDB;
 import org.influxdb.dto.BoundParameterQuery;
 import org.influxdb.dto.Point;
 import org.influxdb.impl.InfluxDBResultMapper;
 import org.springframework.beans.factory.annotation.Qualifier;
-import xyz.andrewkboyd.etltemplate.dao.interfaces.LatestNumbersDAO;
-import xyz.andrewkboyd.etltemplate.entities.influx.TestNumbers;
+import xyz.andrewkboyd.homedatahub.dao.interfaces.LatestNumbersDAO;
+import xyz.andrewkboyd.homedatahub.entities.influx.TestNumbers;
 
 import java.util.concurrent.TimeUnit;
 

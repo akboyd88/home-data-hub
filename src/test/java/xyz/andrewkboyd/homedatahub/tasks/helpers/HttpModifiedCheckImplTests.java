@@ -1,4 +1,4 @@
-package xyz.andrewkboyd.etltemplate.tasks.helpers;
+package xyz.andrewkboyd.homedatahub.tasks.helpers;
 
 import okhttp3.mockwebserver.MockResponse;
 import okhttp3.mockwebserver.MockWebServer;
@@ -9,7 +9,7 @@ import org.junit.jupiter.api.Test;
 import org.junit.runner.RunWith;
 import org.springframework.test.context.junit4.SpringRunner;
 import org.springframework.web.reactive.function.client.WebClient;
-import xyz.andrewkboyd.etltemplate.tasks.helpers.interfaces.HttpModifiedCheck;
+import xyz.andrewkboyd.homedatahub.tasks.helpers.interfaces.HttpModifiedCheck;
 
 import java.io.IOException;
 import java.net.URI;

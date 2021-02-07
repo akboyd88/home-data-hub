@@ -1,13 +1,13 @@
-package xyz.andrewkboyd.etltemplate.controllers;
+package xyz.andrewkboyd.homedatahub.controllers;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-import xyz.andrewkboyd.etltemplate.dao.interfaces.LatestNumbersDAO;
-import xyz.andrewkboyd.etltemplate.dto.EchoResult;
-import xyz.andrewkboyd.etltemplate.dto.LatestNumbers;
+import xyz.andrewkboyd.homedatahub.dao.interfaces.LatestNumbersDAO;
+import xyz.andrewkboyd.homedatahub.dto.EchoResult;
+import xyz.andrewkboyd.homedatahub.dto.LatestNumbers;
 
 /**
  * Simple test controller for test stubs

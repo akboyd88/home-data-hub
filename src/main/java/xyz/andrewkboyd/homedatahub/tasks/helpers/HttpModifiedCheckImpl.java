@@ -1,9 +1,9 @@
-package xyz.andrewkboyd.etltemplate.tasks.helpers;
+package xyz.andrewkboyd.homedatahub.tasks.helpers;
 
 import org.springframework.stereotype.Service;
 import org.springframework.web.reactive.function.client.WebClient;
 import reactor.core.Disposable;
-import xyz.andrewkboyd.etltemplate.tasks.helpers.interfaces.HttpModifiedCheck;
+import xyz.andrewkboyd.homedatahub.tasks.helpers.interfaces.HttpModifiedCheck;
 
 import java.net.URI;
 import java.time.ZonedDateTime;

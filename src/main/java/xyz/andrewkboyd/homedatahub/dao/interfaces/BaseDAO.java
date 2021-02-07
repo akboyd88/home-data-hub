@@ -1,4 +1,4 @@
-package xyz.andrewkboyd.etltemplate.dao.interfaces;
+package xyz.andrewkboyd.homedatahub.dao.interfaces;
 
 /**
  * Defines a base dao interface

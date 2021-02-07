@@ -1,4 +1,4 @@
-package xyz.andrewkboyd.etltemplate.tasks.helpers.interfaces;
+package xyz.andrewkboyd.homedatahub.tasks.helpers.interfaces;
 
 import java.io.IOException;
 import java.net.URI;

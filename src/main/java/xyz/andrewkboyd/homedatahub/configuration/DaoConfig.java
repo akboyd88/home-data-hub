@@ -1,11 +1,11 @@
-package xyz.andrewkboyd.etltemplate.configuration;
+package xyz.andrewkboyd.homedatahub.configuration;
 
 import org.influxdb.InfluxDB;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
-import xyz.andrewkboyd.etltemplate.dao.interfaces.LatestNumbersDAO;
-import xyz.andrewkboyd.etltemplate.dao.postgresql.LatestNumbersImpl;
+import xyz.andrewkboyd.homedatahub.dao.interfaces.LatestNumbersDAO;
+import xyz.andrewkboyd.homedatahub.dao.postgresql.LatestNumbersImpl;
 
 @Configuration
 public class DaoConfig {
@@ -22,5 +22,5 @@ public class DaoConfig {
     }
 
     @Bean
-    public LatestNumbersDAO influxDAO() { return new xyz.andrewkboyd.etltemplate.dao.influx.LatestNumbersImpl(influxDB); }
+    public LatestNumbersDAO influxDAO() { return new xyz.andrewkboyd.homedatahub.dao.influx.LatestNumbersImpl(influxDB); }
 }

@@ -1,11 +1,11 @@
-package xyz.andrewkboyd.etltemplate.actors;
+package xyz.andrewkboyd.homedatahub.actors;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.kafka.annotation.KafkaListener;
 import org.springframework.stereotype.Component;
-import xyz.andrewkboyd.etltemplate.dao.interfaces.LatestNumbersDAO;
+import xyz.andrewkboyd.homedatahub.dao.interfaces.LatestNumbersDAO;
 
 @Component
 public class InfluxNumberActor {

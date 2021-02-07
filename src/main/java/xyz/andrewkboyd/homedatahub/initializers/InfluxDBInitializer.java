@@ -1,4 +1,4 @@
-package xyz.andrewkboyd.etltemplate.initializers;
+package xyz.andrewkboyd.homedatahub.initializers;
 
 import org.influxdb.InfluxDB;
 import org.influxdb.dto.Query;
