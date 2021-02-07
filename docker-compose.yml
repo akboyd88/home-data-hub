@@ -1,9 +1,9 @@
 version: '3'
 services:
   etl-template:
-    image: akboyd88/etl-template:latest
+    image: akboyd88/home-data-hub:latest
     labels:
-      - "traefik.http.routers.etl-template.rule=Host(`etltemplate.docker.localhost`)"
+      - "traefik.http.routers.home-data-hub.rule=Host(`homedatahub.docker.localhost`)"
     expose:
       - "9000"
     depends_on:

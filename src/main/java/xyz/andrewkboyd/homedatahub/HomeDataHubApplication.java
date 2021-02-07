@@ -11,7 +11,7 @@ import java.util.Collections;
  * Entry point for the spring boot application
  */
 @SpringBootApplication
-public class EtlTemplateApplication {
+public class HomeDataHubApplication {
 
 	private static final Logger LOG = LoggerFactory.getLogger(EtlTemplateApplication.class);
 

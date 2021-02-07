@@ -84,7 +84,7 @@ services:
       - zookeeper-data:/datalog
     environment:
       - ZOOKEEPER_CLIENT_PORT=2182
-  etl-template:
+  home-data-hub:
     build:
       context: .
       dockerfile: Dockerfile

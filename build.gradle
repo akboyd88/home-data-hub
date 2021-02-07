@@ -59,7 +59,7 @@ dependencies {
 
 jar {
 	manifest {
-		attributes 'Main-class': 'xyz.andrewkboyd.EtlTemplateApplication'
+		attributes 'Main-class': 'xyz.andrewkboyd.HomeDataHubApplication'
 	}
 }
 
@@ -92,7 +92,7 @@ sourceSets {
 }
 
 javadoc {
-	exclude  "xyz/andrewkboyd/etltemplate/generated/models"
+	exclude  "xyz/andrewkboyd/homedatahub/generated/models"
 	source = sourceSets.main.allJava
 }
 
@@ -120,7 +120,7 @@ jsonSchema2Pojo {
 	usePrimitives = false
 	source = files("${sourceSets.main.output.resourcesDir}/json")
 	targetDirectory = file("${project.rootDir}/src/generated/java")
-	targetPackage = 'xyz.andrewkboyd.etltemplate.generated.models'
+	targetPackage = 'xyz.andrewkboyd.homedatahub.generated.models'
 	propertyWordDelimiters = [] as char[]
 	useLongIntegers = false
 	useBigIntegers = false
