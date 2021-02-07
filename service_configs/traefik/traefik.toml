@@ -1,0 +1,13 @@
+[providers.docker]
+  endpoint = "unix:///var/run/docker.sock"
+[entryPoints]
+  [entryPoints.web]
+    address = ":80"
+  [entryPoints.websecure]
+    address = ":443"
+[api]
+  dashboard = true
+  insecure = true
+[[tls.certificates]]
+  certFile = "/certs/cert.cert"
+  keyFile = "/certs/cert.key"
