@@ -10,7 +10,7 @@ services:
       - postgres
       - kafka
   cassandra:
-    image: cassandra:latest
+    image: cassandra:3.11
     expose:
       - "9042"
     environment:
@@ -20,7 +20,7 @@ services:
     volumes:
       - cassandra_data:/var/lib/cassandra
   cassandra-load-keyspace:
-      image: cassandra:latest
+      image: cassandra:3.11
       depends_on:
         - cassandra
       volumes:
@@ -52,7 +52,7 @@ services:
       - ./service_configs/traefik/certs:/certs
       - ./service_configs/traefik/traefik.toml:/etc/traefik/traefik.toml
   influxdb:
-    image: influxdb:latest
+    image: library/influxdb:1.8.4-alpine
     env_file:
       - ./env/prd/influxdb.env
     expose:
@@ -62,7 +62,7 @@ services:
       - ./service_configs/influxdb/influxdb.conf:/etc/influxdb/influxdb.conf:ro
       - ./service_configs/influxdb/init:/docker-entrypoint-initdb.d
   postgres:
-    image: "postgres"
+    image: library/postgres:13-alpine
     env_file:
       - ./env/prd/database.env
     volumes:
