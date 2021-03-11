@@ -1,7 +1,7 @@
 version: '3'
 services:
   postgres:
-    image: "postgres"
+    image: library/postgres:13-alpine
     env_file:
       - ./env/test/database.env
     volumes:
@@ -9,7 +9,7 @@ services:
     expose:
       - "5432"
   cassandra:
-    image: cassandra:latest
+    image: library/cassandra:3.11
     expose:
       - "9042"
     environment:
@@ -19,7 +19,7 @@ services:
     volumes:
       - cassandra_data:/var/lib/cassandra
   cassandra-load-keyspace:
-      image: cassandra:latest
+      image: library/cassandra:3.11
       depends_on:
         - cassandra
       volumes:
@@ -39,7 +39,7 @@ services:
     env_file: 
       - ./env/test/grafana.env
   influxdb:
-    image: influxdb:latest
+    image: library/influxdb:1.8.4-alpine
     env_file:
       - ./env/test/influxdb.env
     expose:
