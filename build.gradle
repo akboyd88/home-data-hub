@@ -10,7 +10,7 @@ plugins {
 
 group = 'xyz.andrewkboyd'
 version = gitVersion()
-sourceCompatibility = '15'
+sourceCompatibility = '16'
 
 configurations {
 	compileOnly {
@@ -33,7 +33,6 @@ allprojects {
 			options.compilerArgs << "-Xlint:-processing" << "-Werror"
 		}
 	}
-	test.useTestNG()
 }
 
 dependencies {
@@ -48,7 +47,7 @@ dependencies {
 	implementation 'org.flywaydb:flyway-core'
 	compileOnly 'org.projectlombok:lombok'
 	annotationProcessor 'org.projectlombok:lombok'
-	testCompile group: 'junit', name: 'junit', version: '4.13.2'
+	testImplementation group: 'junit', name: 'junit', version: '4.13.2'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 	testImplementation 'org.springframework.kafka:spring-kafka-test'
 	testImplementation 'org.springframework.security:spring-security-test'
