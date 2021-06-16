@@ -1,4 +1,4 @@
-FROM alpine:3.13 AS LOCAL_FILES
+FROM alpine:3.14.0 AS LOCAL_FILES
 WORKDIR /app_files/
 COPY ./ ./
 
